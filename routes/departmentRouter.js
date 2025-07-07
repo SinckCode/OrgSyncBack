@@ -186,12 +186,12 @@ router.put('/:departmentNumber', async (req, res, next) => {
  *          schema:
  *            type: object
  *            properties:
- *              field:
+ *              name:
  *                type: string
- *              value:
+ *              manager:
  *                type: string
- *              override:
- *                type: boolean
+ *              area:
+ *                type: string
  *    responses:
  *      200:
  *        description: Campo actualizado en el departamento

@@ -102,6 +102,8 @@ router.get('/search/:query', async (req, res, next) => {
  *          schema:
  *            type: object
  *            properties:
+ *              employeeNumber:
+ *                type: number
  *              firstName:
  *                type: string
  *              lastName:
@@ -234,7 +236,7 @@ router.patch('/:employeeNumber', async (req, res, next) => {
  *      - in: path
  *        name: id
  *        required: true
- *        description: ID del producto
+ *        description: ID del empleado
  *        schema:
  *          type: string
  *    responses:

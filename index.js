@@ -18,6 +18,7 @@ app.use('/auth', authRouter);
 
 
 const MONGO_URI = 'mongodb+srv://onesto01:ang777pop@finalproject.dx4tm.mongodb.net/?retryWrites=true&w=majority&appName=finalproject';
+
 mongoose.connect(MONGO_URI)
   .then(() => console.log('Conexión exitosa a MongoDB'))
   .catch((error) => {
